@@ -180,3 +180,42 @@ section h2 {
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    /* Sidebar becomes top section */
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Content takes full width */
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    /* Navigation becomes scrollable */
+    .content-nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    /* Reduce padding inside cards */
+    .card {
+        padding: 15px;
+    }
+
+}
+
