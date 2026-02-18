@@ -181,41 +181,64 @@ section h2 {
     border-radius: 10px;
 }
 
-/* MOBILE RESPONSIVE */
+/* RESPONSIVE MOBILE STYLES */
 @media (max-width: 768px) {
 
-    /* Sidebar becomes top section */
+    /* Sidebar moves to top and becomes full width */
     .sidebar {
         position: relative;
         width: 100%;
         height: auto;
+        padding: 20px;
         text-align: center;
     }
 
-    /* Content takes full width */
-    .content {
-        margin-left: 0;
-        width: 100%;
-        padding: 30px 20px;
+    /* Sidebar content spacing */
+    .sidebar .profile-img {
+        width: 90px;
+        height: 90px;
+        margin: auto;
     }
 
-    /* Navigation becomes scrollable */
+    /* Content adjusts under sidebar */
+    .content {
+        margin-left: 0;
+        padding: 20px 15px;
+        width: 100%;
+    }
+
+    /* Navigation becomes stacked/centered */
     .content-nav {
         flex-wrap: wrap;
-        gap: 15px;
-        justify-content: center;
+        justify-content: center !important;
+        gap: 10px;
+        padding: 10px 0;
     }
 
     .nav-links {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
     }
 
-    /* Reduce padding inside cards */
+    .nav-links a {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .resume-btn {
+        margin-top: 10px;
+        padding: 6px 14px;
+        font-size: 14px;
+    }
+
+    /* Reduce spacing inside section cards */
     .card {
         padding: 15px;
+        margin-bottom: 20px;
     }
+
+}
 
 }
 
