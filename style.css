@@ -10,7 +10,7 @@ body {
     width: 300px;
     background-color: #111;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     padding: 40px 20px;
     position: fixed;
     text-align: center;  
@@ -19,7 +19,7 @@ body {
 .content {
     margin-left: 300px;
     padding: 40px 60px;
-    width: calc(100% -300px);
+    width: calc(100% - 300px);
     background-color: #f8f9fa;
 }
 
@@ -181,64 +181,48 @@ section h2 {
     border-radius: 10px;
 }
 
-/* RESPONSIVE MOBILE STYLES */
 @media (max-width: 768px) {
 
-    /* Sidebar moves to top and becomes full width */
     .sidebar {
         position: relative;
         width: 100%;
-        height: auto;
-        padding: 20px;
-        text-align: center;
+        min-height: auto;
+        padding: 25px 20px;
     }
 
-    /* Sidebar content spacing */
-    .sidebar .profile-img {
-        width: 90px;
-        height: 90px;
-        margin: auto;
-    }
-
-    /* Content adjusts under sidebar */
     .content {
         margin-left: 0;
-        padding: 20px 15px;
         width: 100%;
+        padding: 25px 20px;
     }
 
-    /* Navigation becomes stacked/centered */
     .content-nav {
-        flex-wrap: wrap;
-        justify-content: center !important;
-        gap: 10px;
-        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
     }
 
     .nav-links {
         flex-wrap: wrap;
-        gap: 10px;
         justify-content: center;
-    }
-
-    .nav-links a {
-        padding: 6px 12px;
-        font-size: 14px;
+        gap: 20px;
     }
 
     .resume-btn {
-        margin-top: 10px;
-        padding: 6px 14px;
-        font-size: 14px;
+        margin-top: 8px;
     }
 
-    /* Reduce spacing inside section cards */
-    .card {
-        padding: 15px;
-        margin-bottom: 20px;
+    .photo-row {
+        justify-content: center;
+    }
+
+    .photo-row img {
+        width: 150px;
+        height: 150px;
     }
 
 }
 
-}
+
+
 
