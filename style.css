@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f4;
+}
+
+
+
+.sidebar {
+    width: 300px;
+    background-color: #111;
+    color: white;
+    height: 100vh;
+    padding: 40px 20px;
+    position: fixed;
+    text-align: center;  
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-text {
+    font-size: 15px;
+    color: #ccc;
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #444;
+}
+
+.contact-section p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color:#ebe0e0 ;
+}
+
+
+.sidebar h1 {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.content {
+    margin-left: 300px;
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.content {
+    margin-left: 300px;
+    padding: 40px 60px;
+    width: calc(100% -300px);
+    background-color: #f8f9fa;
+}
+
+
+.content-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.nav-links {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.resume-btn {
+    background-color: #111;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #444;
+}
+
+
+.content-nav a:hover {
+    color: #ccc;
+}
+
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-box {
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+.project-btn {
+    display: inline-block;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background-color: #444;
+}
+
+
+
+.photo-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+
+.photo-row img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
