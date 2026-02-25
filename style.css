@@ -78,6 +78,22 @@ body {
     color: #333;
     font-weight: 500;
 }
+.content-nav a:hover {
+    color: #ccc;
+}
+
+.resume-btn {
+    background-color: #111;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #444;
+}
 
 .card {
     background-color: white;
@@ -98,35 +114,10 @@ body {
 
 
 
-section {
-    margin-bottom: 60px;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
-
-
-
-
-.resume-btn {
-    background-color: #111;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.resume-btn:hover {
-    background-color: #444;
-}
-
-
-.content-nav a:hover {
-    color: #ccc;
-}
 
 
 section {
