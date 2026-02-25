@@ -15,6 +15,37 @@ body {
     position: fixed;
     text-align: center;  
 }
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-text {
+    font-size: 15px;
+    color: #ccc;
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #444;
+}
+
+.contact-section p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color:#ebe0e0 ;
+}
+
+
+.sidebar h1 {
+    margin-top: 20px;
+}
 
 .content {
     margin-left: 300px;
@@ -56,37 +87,7 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.profile-img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
 
-.profile-text {
-    font-size: 15px;
-    color: #ccc;
-}
-
-.divider {
-    margin: 30px 0;
-    border: 0;
-    height: 1px;
-    background-color: #444;
-}
-
-.contact-section p {
-    font-size: 15px;
-    margin-bottom: 30px;
-    line-height: 1.5;
-    color:#ebe0e0 ;
-}
-
-
-.sidebar h1 {
-    margin-top: 20px;
-}
 
 .social-links a {
     display: block;
@@ -220,8 +221,8 @@ section h2 {
     }
 
     .photo-row img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
 }
@@ -238,6 +239,7 @@ section h2 {
     border-radius: 8px;
     object-fit: contain;
 }
+
 footer {
     text-align: center;
     padding: 40px;
@@ -260,7 +262,7 @@ footer {
     border-radius: 6px;
 }
 .cert-img:hover {
-    transform: scale(1.9);
+    transform: scale(2);
 }
 
 
