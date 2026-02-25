@@ -260,7 +260,7 @@ footer {
     border-radius: 6px;
 }
 .cert-img:hover {
-    transform: scale(2);
+    transform: scale(1.9);
 }
 
 
