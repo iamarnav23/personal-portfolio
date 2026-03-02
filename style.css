@@ -93,6 +93,7 @@ body {
 
 .resume-btn:hover {
     background-color: #444;
+    transform: scale(1.1);
 }
 
 .card {
@@ -159,6 +160,7 @@ section h2 {
 
 .project-btn:hover {
     background-color: #444;
+    transform: scale(1.1);
 }
 
 
@@ -253,7 +255,7 @@ footer {
     border-radius: 6px;
 }
 .cert-img:hover {
-    transform: scale(2);
+    transform: scale(1.9);
 }
 
 
